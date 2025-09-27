@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Finance App</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="./assets/logo.png" alt="BM Finance Logo" height="32">
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filter-section">
+            <h1>On-Ramp & Off-Ramp Aggregator</h1>
+            <div class="country-selector">
+                <label for="country-select">Your Country:</label>
+                <select id="country-select">
+                    <option value="">Loading countries...</option>
+                </select>
+                <label for="provider-select">Service Provider:</label>
+                <select id="provider-select" disabled>
+                    <option value="">Select a provider</option>
+                </select>
+                <button id="go-button" class="btn-primary" hidden>Go</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="disclaimer-short">This website is an informational aggregator only. We do not provide financial services, accept funds, or guarantee the accuracy of third-party information. Use at your own risk. <a href="Disclaimer.md" target="_blank">Full Disclaimer</a></p>
+            <p class="copyright">&copy; 2025 BM Finance. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

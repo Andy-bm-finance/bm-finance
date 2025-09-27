@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Transak",
+    "logo": "https://transak.com/favicon.ico",
+    "url": "https://transak.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries via bank transfe, 160 in total",
+    "source": "https://transak.com/#onramp"
+  },
+  {
+    "name": "Mercuryo",
+    "logo": "https://mercuryo.io/favicon.ico",
+    "url": "https://mercuryo.io/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries globally",
+    "source": "https://exchange.mercuryo.io/"
+  },
+  {
+    "name": "Banxa",
+    "logo": "https://www.banxa.com/favicon.ico",
+    "url": "https://banxa.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries, mainly in Europe and North America",
+    "source": "https://banxa.com/"
+  },
+  {
+    "name": "MoonPay",
+    "logo": "https://www.moonpay.com/favicon.ico",
+    "url": "https://www.moonpay.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 160 countries globally",
+    "source": "https://www.moonpay.com/"
+  },
+  {
+    "name": "Ramp",
+    "logo": "https://ramp.network/favicon.ico",
+    "url": "https://ramp.network/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 36 countries globally",
+    "source": "https://ramp.network/"
+  },
+  {
+    "name": "Simplex (by nuvei)",
+    "logo": "https://www.simplex.com/favicon.ico",
+    "url": "https://www.simplex.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries globally",
+    "source": "https://www.simplex.com/"
+  },
+  {
+    "name": "Coinmama",
+    "logo": "https://www.coinmama.com/favicon.ico",
+    "url": "https://www.coinmama.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 190 countries globally",
+    "source": "https://www.coinmama.com/"
+  },
+  {
+    "name": "Coinify",
+    "logo": "https://www.coinify.com/favicon.ico",
+    "url": "https://www.coinify.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 150 countries globally",
+    "source": "https://www.coinify.com/"
+  },
+  {
+    "name": "Paybis",
+    "logo": "https://paybis.com/favicon.ico",
+    "url": "https://paybis.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 50 countries globally",
+    "source": "https://paybis.com/"
+  },
+  {
+    "name": "Coinbase",
+    "logo": "https://www.coinbase.com/favicon.ico",
+    "url": "https://www.coinbase.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries globally",
+    "source": "https://www.coinbase.com/"
+  },
+  {
+    "name": "Binance",
+    "logo": "https://www.binance.com/favicon.ico",
+    "url": "https://www.binance.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more countries globally",
+    "source": "https://www.binance.com/"
+  },
+  {
+    "name": "Paxful",
+    "logo": "https://paxful.com/favicon.ico",
+    "url": "https://paxful.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more than 190 countries globally",
+    "source": "https://paxful.com/"
+  },
+  {
+    "name": "BTC Direct",
+    "logo": "https://btcdirect.eu/favicon.ico",
+    "url": "https://btcdirect.eu/",
+    "supported_countries": ["Europe"],
+    "note": "Supports many more countries in Europe",
+    "source": "https://btcdirect.eu/"
+  },
+  {
+    "name": "Guardarian",
+    "logo": "https://guardarian.com/favicon.ico",
+    "url": "https://guardarian.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 170 countries globally",
+    "source": "https://guardarian.com/"
+  },
+  {
+    "name": "CoinGate",
+    "logo": "https://coingate.com/favicon.ico",
+    "url": "https://coingate.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 100 countries globally",
+    "source": "https://coingate.com/"
+  },
+  {
+    "name": "BitPay",
+    "logo": "https://bitpay.com/favicon.ico",
+    "url": "https://bitpay.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 80 countries globally",
+    "source": "https://bitpay.com/"
+  },
+  {
+    "name": "Mt Pelerin",
+    "logo": "https://mtpelerin.com/favicon.ico",
+    "url": "https://mtpelerin.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 163 countries globally",
+    "source": "https://mtpelerin.com/"
+  },
+  {
+    "name": "Kraken",
+    "logo": "https://r.kraken.com/favicon.ico",
+    "url": "https://www.kraken.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 190 countries globally",
+    "source": "https://www.kraken.com/"
+  },
+  {
+    "name": "Bitstamp (by Robinhood)",
+    "logo": "https://www.bitstamp.net/favicon.ico",
+    "url": "https://www.bitstamp.net/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 100 countries globally",
+    "source": "https://www.bitstamp.net/"
+  },
+  {
+    "name": "Bitso",
+    "logo": "https://bitso.com/favicon.ico",
+    "url": "https://bitso.com/",
+    "supported_countries": ["Latin America"],
+    "note": "Supports many more countries in Latin America",
+    "source": "https://bitso.com/"
+  },
+  {
+    "name": "Mercado Bitcoin",
+    "logo": "https://www.mercadobitcoin.com.br/favicon.ico",
+    "url": "https://www.mercadobitcoin.com.br/",
+    "supported_countries": ["BR"],
+    "note": "Supports Brazil in Latin America",
+    "source": "https://www.mercadobitcoin.com.br/"
+  },
+  {
+    "name": "CoinSpot",
+    "logo": "https://www.coinspot.com.au/favicon.ico",
+    "url": "https://www.coinspot.com.au/",
+    "supported_countries": ["AU"],
+    "note": "Supports Australia only",
+    "source": "https://www.coinspot.com.au/"
+  },
+  {
+    "name": "Coincheck",
+    "logo": "https://coincheck.com/favicon.ico",
+    "url": "https://coincheck.com/",
+    "supported_countries": ["JP"],
+    "note": "Supports Japan only",
+    "source": "https://coincheck.com/"
+  },
+  {
+    "name": "Shakepay",
+    "logo": "https://shakepay.me/favicon.ico",
+    "url": "https://shakepay.me/",
+    "supported_countries": ["CA"],
+    "note": "Supports Canada only",
+    "source": "https://shakepay.me/"
+  },
+  {
+    "name": "Bitpanda",
+    "logo": "https://www.bitpanda.com/favicon.ico",
+    "url": "https://www.bitpanda.com/",
+    "supported_countries": ["Europe"],
+    "note": "Supports many more countries in Europe",
+    "source": "https://www.bitpanda.com/"
+  },
+  {
+    "name": "Coinhako",
+    "logo": "https://www.coinhako.com/favicon.ico",
+    "url": "https://www.coinhako.com/",
+    "supported_countries": ["SG", "ID", "MY", "PH"],
+    "note": "Supports Singapore and Southeast Asia",
+    "source": "https://www.coinhako.com/"
+  },
+  {
+    "name": "Luno",
+    "logo": "https://www.luno.com/favicon.ico",
+    "url": "https://www.luno.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports more than 40 countries in Africa and Southeast Asia mainly",
+    "source": "https://www.luno.com/"
+  },
+  {
+    "name": "Uphold",
+    "logo": "https://uphold.com/favicon.ico",
+    "url": "https://uphold.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports more than 140 countries globally",
+    "source": "https://uphold.com/"
+  },
+  {
+    "name": "Wirex",
+    "logo": "https://wirexapp.com/favicon.ico",
+    "url": "https://wirexapp.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports more than 130 countries globally",
+    "source": "https://wirexapp.com/"
+  },
+  {
+    "name": "Revolut (crypto)",
+    "logo": "https://www.revolut.com/favicon.ico",
+    "url": "https://www.revolut.com/",
+    "supported_countries": ["Europe", "North America", "Asia"],
+    "note": "Supports more than 40 countries in Europe, America and Asia",
+    "source": "https://www.revolut.com/"
+  },
+  {
+    "name": "Robinhood (crypto)",
+    "logo": "https://robinhood.com/favicon.ico",
+    "url": "https://robinhood.com/",
+    "supported_countries": ["US"],
+    "note": "",
+    "source": "https://robinhood.com/"
+  },
+  {
+    "name": "eToro (crypto)",
+    "logo": "https://www.etoro.com/favicon.ico",
+    "url": "https://www.etoro.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports more than 140 countries globally",
+    "source": "https://www.etoro.com/"
+  },
+  {
+    "name": "Coinone",
+    "logo": "https://coinone.co.kr/favicon.ico",
+    "url": "https://coinone.co.kr/",
+    "supported_countries": ["KR"],
+    "note": "Supports Korea only",
+    "source": "https://coinone.co.kr/"
+  },
+  {
+    "name": "BitFlyer",
+    "logo": "https://bitflyer.jp/favicon.ico",
+    "url": "https://bitflyer.jp/",
+    "supported_countries": ["JP"],
+    "note": "Supports Japan only",
+    "source": "https://bitflyer.jp/"
+  },
+  {
+    "name": "ZebPay",
+    "logo": "https://zebpay.com/favicon.ico",
+    "url": "https://zebpay.com/",
+    "supported_countries": ["IN"],
+    "note": "Supports India mainly",
+    "source": "https://zebpay.com/"
+  },
+  {
+    "name": "WazirX",
+    "logo": "https://wazirx.com/favicon.ico",
+    "url": "https://wazirx.com/",
+    "supported_countries": ["IN"],
+    "note": "Supports India mainly",
+    "source": "https://wazirx.com/"
+  },
+  {
+    "name": "CoinDCX",
+    "logo": "https://coindcx.com/favicon.ico",
+    "url": "https://coindcx.com/",
+    "supported_countries": ["IN"],
+    "note": "Supports more than 150 countries globally, mainly India",
+    "source": "https://coindcx.com/"
+  },
+  {
+    "name": "Unocoin",
+    "logo": "https://www.unocoin.com/favicon.ico",
+    "url": "https://www.unocoin.com/",
+    "supported_countries": ["IN"],
+    "note": "",
+    "source": "https://www.unocoin.com/"
+  },
+  {
+    "name": "Paytm (crypto)",
+    "logo": "https://paytm.com/favicon.ico",
+    "url": "https://paytm.com/",
+    "supported_countries": ["IN"],
+    "note": "",
+    "source": "https://paytm.com/"
+  },
+  {
+    "name": "Bitonic",
+    "logo": "https://bitonic.nl/favicon.ico",
+    "url": "https://bitonic.nl/",
+    "supported_countries": ["NL"],
+    "note": "",
+    "source": "https://bitonic.nl/"
+  },
+  {
+    "name": "CoinCorner",
+    "logo": "https://www.coincorner.com/favicon.ico",
+    "url": "https://www.coincorner.com/",
+    "supported_countries": ["Europe"],
+    "note": "",
+    "source": "https://www.coincorner.com/"
+  },
+  {
+    "name": "CoinHouse",
+    "logo": "https://www.coinhouse.com/favicon.ico",
+    "url": "https://www.coinhouse.com/",
+    "supported_countries": ["FR"],
+    "note": "",
+    "source": "https://www.coinhouse.com/"
+  },
+  {
+    "name": "Bitbank",
+    "logo": "https://bitbank.cc/favicon.ico",
+    "url": "https://bitbank.cc/",
+    "supported_countries": ["JP"],
+    "note": "",
+    "source": "https://bitbank.cc/"
+  },
+  {
+    "name": "CEX.IO",
+    "logo": "https://cex.io/favicon.ico",
+    "url": "https://cex.io/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports many more 100 countries globally",
+    "source": "https://cex.io/"
+  },
+  {
+    "name": "BTC Markets",
+    "logo": "https://www.btcmarkets.net/favicon.ico",
+    "url": "https://www.btcmarkets.net/",
+    "supported_countries": ["AU"],
+    "note": "",
+    "source": "https://www.btcmarkets.net/"
+  },
+  {
+    "name": "HitBTC",
+    "logo": "https://hitbtc.com/favicon.ico",
+    "url": "https://hitbtc.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://hitbtc.com/"
+  },
+  {
+    "name": "Huobi",
+    "logo": "https://www.huobi.com/favicon.ico",
+    "url": "https://www.huobi.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.huobi.com/"
+  },
+  {
+    "name": "OKX",
+    "logo": "https://www.okx.com/favicon.ico",
+    "url": "https://www.okx.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.okx.com/"
+  },
+  {
+    "name": "Bybit",
+    "logo": "https://www.bybit.com/favicon.ico",
+    "url": "https://www.bybit.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.bybit.com/"
+  },
+  {
+    "name": "KuCoin",
+    "logo": "https://www.kucoin.com/favicon.ico",
+    "url": "https://www.kucoin.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.kucoin.com/"
+  },
+  {
+    "name": "Gate.io",
+    "logo": "https://www.gate.io/favicon.ico",
+    "url": "https://www.gate.io/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.gate.io/"
+  },
+  {
+    "name": "Bitrue",
+    "logo": "https://www.bitrue.com/favicon.ico",
+    "url": "https://www.bitrue.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://www.bitrue.com/"
+  },
+  {
+    "name": "Poloniex",
+    "logo": "https://poloniex.com/favicon.ico",
+    "url": "https://poloniex.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "",
+    "source": "https://poloniex.com/"
+  },
+  {
+    "name": "nium",
+    "logo": "https://www.nium.com/favicon.ico",
+    "url": "https://www.nium.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Support 190+ countries globally.",
+    "source": "https://www.nium.com/"
+  },
+  {
+    "name": "onramper",
+    "logo": "https://onramper.com/favicon.ico",
+    "url": "https://onramper.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Support 175 countries globally.",
+    "source": "https://onramper.com/coverage"
+  },
+  {
+    "name": "dtcpay",
+    "logo": "https://dtcpay.com/favicon.ico",
+    "url": "https://dtcpay.com/",
+    "supported_countries": ["SG", "MY", "ID", "TH", "Asia"],
+    "note": "Support many more countries globally.",
+    "source": "https://dtcpay.com/"
+  },
+  {
+    "name": "fomopay",
+    "logo": "https://www.fomopay.com/favicon.ico",
+    "url": "https://www.fomopay.com/",
+    "supported_countries": ["Asia"],
+    "note": "Support 100+ countries globally.",
+    "source": "https://www.fomopay.com/"
+  },
+  {
+    "name": "triple-a",
+    "logo": "https://www.triple-a.io/favicon.ico",
+    "url": "https://www.triple-a.io/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Support 100+ countries globally.",
+    "source": "https://www.triple-a.io/"
+  },
+  {
+    "name": "onramp.money",
+    "logo": "https://onramp.money/favicon.ico",
+    "url": "https://onramp.money/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Marketed as onramp provider serving 100+ countries, mainly in India.",
+    "source": "https://onramp.money/"
+  },
+  {
+  "name": "Yellow Card",
+  "logo": "https://yellowcard.io/favicon.ico",
+  "url": "https://yellowcard.io",
+  "supported_countries": ["NG", "GH", "KE", "ZA", "UG", "TZ", "RW", "ZM", "BW","Africa"],
+  "note": "Supports 20+ countries in Africa.",
+  "source": "https://yellowcard.io"
+  },
+  {
+    "name": "SHIFT",
+    "logo": "https://www.shift4.com/favicon.ico",
+    "url": "https://www.shift4.com",
+    "supported_countries": ["US","CA", "North America"],
+    "note": "Supports US, Canada, and Caribbean countries.",
+    "source": "https://www.shift4.com"
+  },
+  {
+    "name": "Unlimit",
+    "logo": "https://www.unlimit.com/favicon.ico",
+    "url": "https://www.unlimit.com",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports global countries, mainly LATAM, APAC, Africa, EU, UK.",
+    "source": "https://www.unlimit.com"
+  },
+  {
+    "name": "beam",
+    "logo": "https://getbeam.cash/favicon.ico",
+    "url": "https://getbeam.cash/",
+    "supported_countries": ["US"],
+    "note": "Supports primarily United States.",
+    "source": "https://getbeam.cash/"
+  },
+  {
+    "name": "MESH",
+    "logo": "https://meshpayments.com/favicon.ico",
+    "url": "https://meshpayments.com/",
+    "supported_countries": ["US","CA","UK","SG","HK","AU", "Europe"],
+    "note": "Supports 100+ countries, mainly US, Canada, EU, UK, Singapore, Hong Kong, Australia.",
+    "source": "https://meshpayments.com/"
+  },
+  {
+    "name": "DollarApp",
+    "logo": "https://www.dolarapp.com/favicon.ico",
+    "url": "https://www.dolarapp.com/en-MX",
+    "supported_countries": ["MX","CO","AR","BR"],
+    "note": "Supports 4 countries in Latin America.",
+    "source": "https://www.dolarapp.com/en-MX"
+  },
+  {
+    "name": "Sling",
+    "logo": "https://sling.money/favicon.ico",
+    "url": "https://sling.money/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports 140+ countries, mainly US.",
+    "source": "https://sling.money/"
+  },
+  {
+    "name": "Klickl",
+    "logo": "https://www.klickl.com/favicon.ico",
+    "url": "https://www.klickl.com/",
+    "supported_countries": ["GLOBAL"],
+    "note": "Supports 200+ countries worldwide.",
+    "source": "https://www.klickl.com/"
+  },
+  {
+    "name": "Kotani Pay",
+    "logo": "https://www.kotanipay.com/favicon.ico",
+    "url": "https://www.kotanipay.com/",
+    "supported_countries": ["KE", "ZA", "NA", "BW", "ZM", "GH", "Africa"],
+    "note": "Supports primarily Kenya and African countries.",
+    "source": "https://www.kotanipay.com/"
+  },
+  {
+    "name": "PEXX",
+    "logo": "https://pexx.com/favicon.ico",
+    "url": "https://pexx.com",
+    "supported_countries": ["GLOBAL"],
+    "note": ".",
+    "source": "https://pexx.com"
+  },
+  {
+    "name": "thalex",
+    "logo": "https://www.thalex.com/favicon.ico",
+    "url": "https://www.thalex.com/",
+    "supported_countries": ["AE"],
+    "note": "Supports primarily United Arab Emirates.",
+    "source": "https://www.thalex.com/"
+  }
+]
