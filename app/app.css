@@ -1,9 +1,19 @@
 /* /app/app.css */
 
+/*
+  Flexbox layout for sticky footer
+  - body is a flex container, arranging children (header, main, footer) in a column.
+  - min-height: 100vh ensures the body is at least as tall as the screen.
+  - flex-grow: 1 on the main container makes it expand to push the footer down.
+*/
+body {
+    display: flex;
+    flex-direction: column;
+}
 /* Main container for the app content */
 .container {
-    padding: 24px 5vw; /* Reduced top/bottom padding from 48px to 24px */
-    padding-bottom: 150px; /* Add padding to avoid overlap with sticky footer */
+    flex-grow: 1; /* This makes the main content area expand */
+    padding: 24px 5vw;
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Align content to the top */
@@ -19,7 +29,7 @@
     max-width: 700px;
     width: 100%;
     text-align: center;
-    align-self: flex-start;
+    margin-top: 0vh; /* Push the card down from the top a bit */
 }
 
 .filter-section h1 {
@@ -152,9 +162,10 @@ footer .disclaimer-short a:hover {
     color: var(--color-primary);
 }
 
-/* Make footer sticky */
+/* Make footer stick to the bottom */
 footer {
-    position: sticky;
-    bottom: 0;
+    width: 100%;
+    background: var(--bg-dark); /* Match the main site footer background */
     z-index: 999;
+    border-top: 1px solid var(--border-color); /* Add border for consistency */
 }
