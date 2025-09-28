@@ -1,12 +1,37 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Access Gate Elements ---
+    const accessGateSection = document.getElementById('access-gate-section');
+    const mainAppSection = document.getElementById('main-app-section');
+    const invitationCodeInput = document.getElementById('invitation-code');
+    const validateButton = document.getElementById('validate-button');
+
+    // --- App Elements ---
     const countrySelect = document.getElementById('country-select');
     const providerSelect = document.getElementById('provider-select');
     const goButton = document.getElementById('go-button');
 
+    // --- State and Config ---
     let allProviders = [];
     let countryCodeToNameMap = {};
     let continentCountryMap = {};
     let countryToContinentMap = {};
+    const correctHash = '0EEDFDCCDF50BA19368AF8C733C0F8BD';
+
+    // --- Access Gate Logic ---
+    function checkAccess() {
+        // If user has already been validated (e.g., in this session), show the app
+        if (sessionStorage.getItem('accessGranted') === 'true') {
+            showMainApp();
+        } else {
+            // Otherwise, set up the listener for the validation button
+            validateButton.addEventListener('click', validateCode);
+            invitationCodeInput.addEventListener('keyup', (event) => {
+                if (event.key === 'Enter') {
+                    validateCode();
+                }
+            });
+        }
+    }
 
     // --- Main Initialization ---
     async function init() {
@@ -47,6 +72,48 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error("Initialization failed:", error);
         }
+    }
+
+    function validateCode() {
+        const userInput = invitationCodeInput.value;
+        // js-md5 library is loaded from CDN
+        const userHash = md5(userInput).toUpperCase();
+
+        if (userHash === correctHash) {
+            // On success, grant access and store it in session storage
+            sessionStorage.setItem('accessGranted', 'true');
+            showMainApp();
+            init(); // Initialize the main app functionality
+        } else {
+            // On failure, show an error message
+            showErrorBalloon('Invalid invitation code.');
+            invitationCodeInput.focus();
+        }
+    }
+
+    function showErrorBalloon(message) {
+        // Remove any existing balloon first
+        const existingBalloon = document.querySelector('.popup-balloon');
+        if (existingBalloon) {
+            existingBalloon.remove();
+        }
+
+        // Create and append the new balloon
+        const balloon = document.createElement('div');
+        balloon.className = 'popup-balloon';
+        balloon.textContent = message;
+        accessGateSection.querySelector('.access-gate-form').appendChild(balloon);
+
+        // Remove the balloon after 3 seconds
+        setTimeout(() => {
+            balloon.remove();
+        }, 3000);
+    }
+
+    function showMainApp() {
+        // Hide the gate and show the app
+        accessGateSection.classList.add('hidden');
+        mainAppSection.classList.remove('hidden');
     }
 
     // --- Data Fetching ---
@@ -178,5 +245,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Start the App ---
-    init();
+    checkAccess(); // Start with the access check instead of direct init
 });
