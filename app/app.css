@@ -40,10 +40,15 @@ body {
     letter-spacing: -1px;
 }
 
-.filter-section p {
+.filter-section p,
+.filter-section .subtitle {
     color: var(--text-gray);
     font-size: 1.1rem;
     margin-bottom: 2.5rem;
+}
+
+.filter-section .subtitle {
+    margin-bottom: 2rem;
 }
 
 /* Layout for the form controls */
@@ -54,6 +59,14 @@ body {
     text-align: left;
 }
 
+.access-gate-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    position: relative; /* Needed for positioning the popup balloon */
+    text-align: left;
+}
+
 .country-selector label {
     display: block;
     font-weight: 500;
@@ -61,8 +74,16 @@ body {
     margin-bottom: 0.25rem;
 }
 
+.access-gate-form label {
+    display: block;
+    font-weight: 500;
+    color: var(--text-gray-light);
+    margin-bottom: 0.25rem;
+}
+
 /* Custom styling for select dropdowns */
-.country-selector select {
+.country-selector select,
+.access-gate-form input[type="text"] {
     width: 100%;
     padding: 12px 16px;
     background-color: var(--bg-dark-soft);
@@ -75,11 +96,13 @@ body {
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.country-selector select:hover {
+.country-selector select:hover,
+.access-gate-form input[type="text"]:hover {
     border-color: #444;
 }
 
-.country-selector select:focus {
+.country-selector select:focus,
+.access-gate-form input[type="text"]:focus {
     outline: none;
     border-color: var(--color-primary);
     box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2);
@@ -148,6 +171,57 @@ body {
     color: var(--color-primary);
 }
 
+/* Add margin-top to the validate button to increase the gap */
+#validate-button {
+    margin-top: 0.5rem;
+}
+
+/* Popup Balloon for error messages */
+.popup-balloon {
+    position: absolute;
+    top: 65px; /* Position it just below the input field */
+    left: 50%;
+    transform: translateX(-50%);    
+    background-color: var(--color-primary); /* Use theme color for background */
+    color: var(--text-dark); /* Use dark text for contrast */
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.contact-container {
+    background-color: var(--bg-dark-soft);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact-container p {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    text-align: center;
+    margin: 0; /* Reset paragraph margin */
+}
+
+.contact-container a {
+    color: var(--text-gray-light);
+    text-decoration: underline;
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none !important;
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .container {
@@ -163,7 +237,8 @@ body {
         font-size: 1.8rem;
     }
 
-    .filter-section p {
+    .filter-section p,
+    .filter-section .subtitle {
         font-size: 1rem;
     }
 }
