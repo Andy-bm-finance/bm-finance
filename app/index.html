@@ -21,8 +21,23 @@
     </header>
 
     <main class="container">
-        <div class="filter-section">
-            <h1>On-Ramp & Off-Ramp Aggregator</h1>
+        <!-- Access Gate Section -->
+        <div id="access-gate-section" class="filter-section">
+            <h1>Invite Only Access</h1>
+            <p class="subtitle">This application is currently available by invitation only.</p>
+            <div class="access-gate-form">
+                <label for="invitation-code">Enter Invitation Code</label>
+                <input type="text" id="invitation-code" placeholder="Your invitation code">
+                <button id="validate-button" class="btn-primary">Validate Access</button>
+                <div class="contact-container">
+                    <p>Need an invitation? <a href="https://x.com/bm_protocol" target="_blank">Contact us</a> to get an access code.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main App Content (Initially Hidden) -->
+        <div id="main-app-section" class="filter-section hidden">
+            <h1 id="main-app-title">On-Ramp & Off-Ramp Aggregator</h1>
             <div class="country-selector">
                 <label for="country-select">Your Country:</label>
                 <select id="country-select">
@@ -48,6 +63,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
