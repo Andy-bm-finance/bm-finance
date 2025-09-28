@@ -23,7 +23,7 @@ body {
 .filter-section {
     background: var(--bg-dark);
     border-radius: 16px;
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 3rem 1.5rem; /* Reduced bottom padding */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid var(--border-color);
     max-width: 700px;
@@ -117,6 +117,35 @@ body {
     cursor: not-allowed;
     box-shadow: none;
     border: 1px solid var(--border-color);
+}
+
+/* Disclaimer container */
+.disclaimer-container {
+    margin-top: 1.5rem;
+}
+
+/* Disclaimer inside the filter card */
+.disclaimer-container .disclaimer-short,
+.disclaimer-container .disclaimer-link {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    line-height: 1.5;
+    margin: 0; /* Reset paragraph margins */
+    text-align: center;
+}
+
+.disclaimer-container .disclaimer-link {
+    margin-top: 0rem; /* Small space between text and link */
+}
+
+.country-selector .disclaimer-short a {
+    color: var(--text-gray-light);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.country-selector .disclaimer-short a:hover {
+    color: var(--color-primary);
 }
 
 /* Responsive styles for smaller screens */
